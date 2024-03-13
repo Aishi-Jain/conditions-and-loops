@@ -1,6 +1,6 @@
 package aishi;
 
-public class Main {
+public class Conditionals {
     public static void main(String[] args) {
         int salary = 25400;
         if(salary > 10000)
