@@ -36,6 +36,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Casecheck.executor": "Run",
+    "Application.CountNums.executor": "Run",
     "Application.Fibonacci.executor": "Run",
     "Application.Largest.executor": "Run",
     "Application.Loops.executor": "Run",

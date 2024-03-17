@@ -22,6 +22,22 @@ public class CountNums {
         the loop will be terminated as we will give the condition that the first number should be greater than 0.
         hence, the output should be 3.
          */
+        int count = 0;
+        System.out.println("Give a long number (more than 3 digits):");
+        int FirstNumber = input.nextInt();
+        System.out.println("Give a number whose number of occurences you want to find: ");
+        int SecondNumber = input.nextInt();
+        while(FirstNumber>0)
+        {
+            int rem = FirstNumber % 10;
+            if(rem == SecondNumber)
+            {
+                count++;
+            }
+            FirstNumber = FirstNumber/10;
+
+        }
+        System.out.println(count);
 
     }
 }
