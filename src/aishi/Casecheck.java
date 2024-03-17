@@ -19,7 +19,7 @@ public class Casecheck {
         */
 
         char ch = input.next().trim().charAt(0);
-        if(ch > 'a' && ch <= 'z')
+        if(ch >= 'a' && ch <= 'z')
         {
             System.out.println("lowercase");
         }
