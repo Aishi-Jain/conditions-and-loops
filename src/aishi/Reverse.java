@@ -33,5 +33,15 @@ public class Reverse {
         the loop will eb terminated as the condition is n > 0 and the output will be :
         54321
          */
+        int ans = 0;
+        System.out.println("Give any number:");
+        int a = input.nextInt();
+        while (a>0)
+        {
+            int rem = a % 10;
+            a = a / 10;
+            ans = ans * 10 + rem;
+        }
+        System.out.println(ans);
     }
 }
